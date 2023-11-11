@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = child Arvore DOM
+        */
+        body{
+            font: normal light 1em Arial Helvetica sans-serif; 
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: lightblue;
+        }
+        .especial::after{
+            content: ' [Link]';
+            font-weight: normal;
+            color: lightgray;
+            text-decoration: none;
+        }
+        .especial::before{
+            content: '¹';
+        }
+        .especial:hover{
+            font-size: larger;
+            color: blueviolet;
+            transition: ease-in 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Links</h1>
+    <ul>
+        <li>
+            <a href="https://github.com/Joao-oliveiraf" target="_blank" title=https://github.com/Joao-oliveiraf rel="external" class="especial">
+            Github
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/channel/UCDiQomFa5HRhRuy_x9TP1EQ" target="_blank" rel="external" title="https://www.youtube.com/channel/UCDiQomFa5HRhRuy_x9TP1EQ">
+                Youtube
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/joao.oliveiraf">
+                Instagram
+            </a>
+        </li>
+    </ul>
+</body>
+</html>

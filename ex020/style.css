@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(to right, rgb(129, 120, 120), rgba(0, 0, 255, 0.212));
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+
+.mybut:any-link{
+    color: darkred;
+    text-decoration: none;
+}
+.mybut:hover{
+    text-shadow: 1px 1px 10px black;
+    font-size: large;
+    transition: ease-in-out 1s;
+    transform: scale(1.2);
+     
+}

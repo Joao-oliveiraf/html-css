@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "android";
+    src: url("fontes/idroid.otf") format("opentype");
+}
+strong{
+    color: #017c36;
+}
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+}
+header{
+    margin-top: 0px;
+    padding: 20px 20px 4px 20px;
+    background: linear-gradient(180deg, rgba(64,230,137,1) 0%, rgb(1, 104, 46) 100%);
+    box-shadow: 1px 1px 15px 0px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > h1{
+    
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.555);
+    font-size: 2.5em;
+    margin-block-start: 0px;
+    color: white;
+}
+header > h2{
+    text-align: center;
+    color: white;
+    margin: 40px 5px 40px 5px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px black;
+}
+header > nav > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+header > nav > a:hover{
+    background-color: #84E1AD;
+    transition: all 1s ease;
+}
+/* CSS MAIN TAG*/
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    background-color: white;
+    margin: 5px auto;
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.452);
+}
+p::selection, h1::selection{
+    background-color: #84E1AD;
+}
+h2::selection{
+    background-color: #424141;
+}
+p{
+    text-indent: 30px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+}
+main > h1{
+    font-family: "android";
+    color: #017c36;
+    text-shadow: 1px 1px 3px #00000091;
+}
+main > h2 {
+    font-family: "android";
+    color: #017c36;
+    text-shadow: 1px 1px 3px #00000052;
+    background: linear-gradient(90deg, rgba(73,237,145,1) 0%, rgba(255,255,255,1) 100%);
+    padding-left: 7px;
+    margin: 0px;
+}
+/*LINKS E IMAGENS*/
+a{
+    text-decoration: none;
+    color: #017c36;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+a::selection{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #84E1AD;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 90%;
+}
+/*IMAGEM COM QUALIDADE RUIM*/
+.badqualy{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+}
+/*VIDEO CONFIGS*/
+.ytvideo{
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    margin: auto;
+}
+main > div{
+    padding: 20px;
+    background-color: #017c36;
+    margin: 0px;
+}
+/*
+FOOTER CONFIGS
+*/
+footer{
+    background-color: #017c36;
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+    color: white;
+    margin-top: 15px;
+}
+footer > p {
+    margin: 0px;
+}
+/*SECTION CONFIGS*/
+section{
+    background-color: #84E1AD;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+section > div{
+    text-align: left;
+    background-color: #017c36;
+    margin: 0px;
+    margin-block-start: -10px;
+    border-radius: 10px;
+    
+}
+ul{
+    display: inline-block;
+}
+
+

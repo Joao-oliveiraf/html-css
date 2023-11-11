@@ -1,0 +1,84 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(#87BCDE, #805E73);
+    background-attachment: fixed;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+header{
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 2px 1px 5px;
+    border-radius: 5px 5px;
+    padding: 10px 15px;
+    margin: auto;
+}
+nav > a {
+    text-decoration: none;
+    color: #243B4A;
+    margin: 10px;
+    font-weight: bold;
+}
+nav > a:hover{
+    font-size: large;
+    background-color: rgb(90, 90, 90);
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: underline;
+    transform: scale(1.5);
+    transition: all 1.5s ease;
+}
+section{
+    background-color: white;
+    margin: 10px 10px;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 3px 3px 20px 1px rgba(0, 0, 0, 0.397);
+}
+section > article > aside{
+    text-decoration: underline;
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: auto;
+}
+.espbutt{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 0px;
+    box-shadow: 2px 2px 13px 2px black;
+    margin: auto auto 13px auto;
+    transition: all 0.8s ease;
+    border-radius: 5%;
+    transform: scale(0.7, 0.6);
+    
+    
+}
+.espbutt:hover{
+    transform: scale(0.9, 0.8);
+    box-shadow: 3px 3px 20px 1px black;
+    border-radius: 15%;
+    background-color: rgba(0, 0, 0, 0);
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 0px;
+    background-color: #14374d00;
+    border-radius: 5%;
+}
+main > a {
+    width: 200px;
+    height: 200px;
+}
