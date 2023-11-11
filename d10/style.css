@@ -146,6 +146,9 @@ section > div{
     border-radius: 10px;
     
 }
+section > ul{
+    list-style: '\00A0\2714';
+}
 ul{
     display: inline-block;
 }
