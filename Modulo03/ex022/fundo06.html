@@ -7,16 +7,24 @@
     <style>
         body{
             height: 100vh;
+            
+            /*
             background-color: black;
             background-image: url(../imagens19/wallpaper002.jpg);
-            background-position: center top;
             background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center top;
             background-size: cover;
+
+            Shorthand background:
+            color - image - repeat - attachment - position / size - origin - clip
+            */
+            background: black url(../imagens19/wallpaper002.jpg) no-repeat fixed center center / cover;
 
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
