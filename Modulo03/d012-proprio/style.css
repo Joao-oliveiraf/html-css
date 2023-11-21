@@ -73,6 +73,7 @@ section.imagem{
     background-position: right center;
     color: wheat;
     margin-left: 0px;
+    box-shadow: black 0px 2px 13px 1px inset;
 }
 section.imagem > p{
     margin-left: 50px;
