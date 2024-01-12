@@ -6,15 +6,16 @@
     <title>Cordel Moderno</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onresize="resize()">
     <div id="backtotop" onclick="backtop()">
         <img src="imagens/return_trans.png" alt="" id="return">
     </div>
     <nav id="navbar">
-        <a href="https://professorguanabara.github.io/projeto-cordel/" rel="external" target="_blank" title="Site Original">Site Original</a>
-        <a href="https://www.cursoemvideo.com/" rel="external" target="_blank" title="Site Oficial do Curso Em Video">CursoEmVideo</a>
-        <a href="https://github.com/Joao-oliveiraf" rel="external" title="Meu Github" target="_blank">João Pedro</a>
-        <a href="#">Fale Conosco</a>
+        <a class="linknav" href="https://professorguanabara.github.io/projeto-cordel/" rel="external" target="_blank" title="Site Original">Site Original</a>
+        
+        <a class="linknav" href="https://www.cursoemvideo.com/" rel="external" target="_blank" title="Site Oficial do Curso Em Video">CursoEmVideo</a>
+        <a class="linknav" href="https://github.com/Joao-oliveiraf" rel="external" title="Meu Github" target="_blank">João Pedro</a>
+        <a class="linknav" href="#">Fale Conosco</a>
     </nav>
     <header>
         <h1>Cordel Moderno</h1>
@@ -40,7 +41,7 @@
     <section class="imagem">
         
             <p>
-                Não é mais como era antes
+                Não é mais como era 
                 <br>
                 É tudo abreviado
                 <br>
@@ -145,6 +146,12 @@
         <p>Desenvolvido por João Pedro Oliveira para o <a href="https://www.cursoemvideo.com/" rel="external" target="_blank" title="Site Oficial do Curso Em Video">CursoEmVideo</a></p>
     </footer>
     <script>
+        function resize(){
+            if (window.innerWidth < 550){
+                document.getElementsByClassName('linknav').style.padding = '0px auto';
+                
+            }
+        }
         window.onscroll = function() {scrollDown()};
         function scrollDown() {
             let mybutton = document.getElementById('backtotop')
